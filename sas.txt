@@ -1,0 +1,24 @@
+SELECT * FROM obat
+
+SELECT * FROM pasien
+
+SELECT * FROM transaksi
+
+SELECT * FROM transaksi WHERE obat_id = 3;
+
+SELECT * FROM transaksi WHERE obat_id = 3;
+
+SELECT * FROM transaksi WHERE pasien_id = 3;
+
+SELECT * FROM obat
+WHERE NOT apoteker='Ferry';
+
+SELECT * FROM obat
+WHERE NOT apoteker='Pandi';
+
+SELECT * 
+FROM transaksi
+ORDER BY jumlah DESC;
+
+SELECT * 
+FROM transaksi WHERE jumlah < 4;
